@@ -77,6 +77,14 @@ function listEventos() {
       >
         SAIR
       </Button>
+      <Button 
+      fullWidth
+      variant='contained'
+      component={Link}
+      to="/"
+      >
+        Criar Evento
+      </Button>
     </div>  
   )
 }
